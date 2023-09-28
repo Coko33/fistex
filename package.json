@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "next": "latest"
+    "react-dom": "latest"
   },
   "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@types/react": "18.2.23",
     "eslint": "latest",
     "eslint-config-next": "latest"
   }

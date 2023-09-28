@@ -1,10 +1,8 @@
 .main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  place-items: center;
   padding: 6rem;
-  min-height: 100vh;
+  max-height: 100vh;
 }
 
 .description {
@@ -97,7 +95,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -107,6 +105,172 @@
 .logo {
   position: relative;
 }
+/*pagina en construcción*/
+#logoFistex {
+  width: 60px;
+}
+#forma1 {
+  animation: slideF1 10s infinite;
+}
+@keyframes slideF1 {
+  0% {
+    transform: translate(-272.72px, -328.04px);
+    opacity: 0;
+  }
+  12% {
+    transform: translate(-272.72px, -328.04px);
+    opacity: 0;
+  }
+  15% {
+    transform: translate(-222.72px, -328.04px);
+    opacity: 1;
+  }
+  85% {
+    transform: translate(-222.72px, -328.04px);
+    opacity: 1;
+  }
+  88% {
+    transform: translate(-272.72px, -328.04px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-272.72px, -328.04px);
+    opacity: 0;
+  }
+}
+
+#forma2 {
+  animation: slideF2 10s infinite;
+}
+@keyframes slideF2 {
+  0% {
+    transform: translate(-222.72px, -328.04px);
+    opacity: 0;
+  }
+  9% {
+    transform: translate(-222.72px, -266.3px);
+    opacity: 0;
+  }
+  12% {
+    transform: translate(-222.72px, -328.04px);
+    opacity: 1;
+  }
+  88% {
+    transform: translate(-222.72px, -328.04px);
+    opacity: 1;
+  }
+  91% {
+    transform: translate(-222.72px, -266.3px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-222.72px, -328.04px);
+    opacity: 0;
+  }
+}
+
+#forma3 {
+  animation: slideF3 10s infinite;
+}
+@keyframes slideF3 {
+  0% {
+    transform: translate(-222.72px, -328.04px);
+    opacity: 0;
+  }
+  6% {
+    transform: translate(-272.72px, -328.04px);
+    opacity: 0;
+  }
+  9% {
+    transform: translate(-222.72px, -328.04px);
+    opacity: 1;
+  }
+  91% {
+    transform: translate(-222.72px, -328.04px);
+    opacity: 1;
+  }
+  94% {
+    transform: translate(-272.72px, -328.04px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-222.72px, -328.04px);
+    opacity: 0;
+  }
+}
+
+#forma4 {
+  animation: slideF4 10s infinite;
+}
+@keyframes slideF4 {
+  0% {
+    transform: translate(-222.72px, -328.04px);
+    opacity: 0;
+  }
+  3% {
+    transform: translate(-222.72px, -266.3px);
+    opacity: 0;
+  }
+  6% {
+    transform: translate(-222.72px, -328.04px);
+    opacity: 1;
+  }
+  94% {
+    transform: translate(-222.72px, -328.04px);
+    opacity: 1;
+  }
+  97% {
+    transform: translate(-222.72px, -266.3px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-222.72px, -328.04px);
+    opacity: 0;
+  }
+}
+
+#forma5 {
+  animation: slideF5 10s infinite;
+}
+@keyframes slideF5 {
+  0% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  97% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.pConstruccion_titulo {
+  margin-bottom: 0 !important;
+  margin-top: 20px;
+}
+
+.pConstruccion_subtitulo {
+  margin: 0 !important;
+  animation: slideSub 10s infinite;
+}
+@keyframes slideSub {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
