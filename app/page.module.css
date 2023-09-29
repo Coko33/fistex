@@ -107,7 +107,7 @@
 }
 /*pagina en construcción*/
 #logoFistex {
-  width: 60px;
+  width: 160px;
 }
 #forma1 {
   animation: slideF1 10s infinite;
@@ -248,11 +248,13 @@
 }
 
 .pConstruccion_titulo {
+  font-size: 100px;
   margin-bottom: 0 !important;
   margin-top: 20px;
 }
 
 .pConstruccion_subtitulo {
+  font-size: 28px;
   margin: 0 !important;
   animation: slideSub 10s infinite;
 }
@@ -291,6 +293,21 @@
 
 /* Mobile */
 @media (max-width: 700px) {
+  .main {
+    padding: 0;
+    padding-top: 200px;
+  }
+  #logoFistex {
+    width: 100px;
+  }
+  .pConstruccion_titulo {
+    font-size: 60px;
+  }
+
+  .pConstruccion_subtitulo {
+    font-size: 16px;
+  }
+
   .content {
     padding: 4rem;
   }
