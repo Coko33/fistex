@@ -105,146 +105,10 @@
 .logo {
   position: relative;
 }
+
 /*pagina en construcción*/
-#logoFistex {
+.pConstruccion_logo {
   width: 160px;
-}
-#forma1 {
-  animation: slideF1 10s infinite;
-}
-@keyframes slideF1 {
-  0% {
-    transform: translate(-272.72px, -328.04px);
-    opacity: 0;
-  }
-  12% {
-    transform: translate(-272.72px, -328.04px);
-    opacity: 0;
-  }
-  15% {
-    transform: translate(-222.72px, -328.04px);
-    opacity: 1;
-  }
-  85% {
-    transform: translate(-222.72px, -328.04px);
-    opacity: 1;
-  }
-  88% {
-    transform: translate(-272.72px, -328.04px);
-    opacity: 0;
-  }
-  100% {
-    transform: translate(-272.72px, -328.04px);
-    opacity: 0;
-  }
-}
-
-#forma2 {
-  animation: slideF2 10s infinite;
-}
-@keyframes slideF2 {
-  0% {
-    transform: translate(-222.72px, -328.04px);
-    opacity: 0;
-  }
-  9% {
-    transform: translate(-222.72px, -266.3px);
-    opacity: 0;
-  }
-  12% {
-    transform: translate(-222.72px, -328.04px);
-    opacity: 1;
-  }
-  88% {
-    transform: translate(-222.72px, -328.04px);
-    opacity: 1;
-  }
-  91% {
-    transform: translate(-222.72px, -266.3px);
-    opacity: 0;
-  }
-  100% {
-    transform: translate(-222.72px, -328.04px);
-    opacity: 0;
-  }
-}
-
-#forma3 {
-  animation: slideF3 10s infinite;
-}
-@keyframes slideF3 {
-  0% {
-    transform: translate(-222.72px, -328.04px);
-    opacity: 0;
-  }
-  6% {
-    transform: translate(-272.72px, -328.04px);
-    opacity: 0;
-  }
-  9% {
-    transform: translate(-222.72px, -328.04px);
-    opacity: 1;
-  }
-  91% {
-    transform: translate(-222.72px, -328.04px);
-    opacity: 1;
-  }
-  94% {
-    transform: translate(-272.72px, -328.04px);
-    opacity: 0;
-  }
-  100% {
-    transform: translate(-222.72px, -328.04px);
-    opacity: 0;
-  }
-}
-
-#forma4 {
-  animation: slideF4 10s infinite;
-}
-@keyframes slideF4 {
-  0% {
-    transform: translate(-222.72px, -328.04px);
-    opacity: 0;
-  }
-  3% {
-    transform: translate(-222.72px, -266.3px);
-    opacity: 0;
-  }
-  6% {
-    transform: translate(-222.72px, -328.04px);
-    opacity: 1;
-  }
-  94% {
-    transform: translate(-222.72px, -328.04px);
-    opacity: 1;
-  }
-  97% {
-    transform: translate(-222.72px, -266.3px);
-    opacity: 0;
-  }
-  100% {
-    transform: translate(-222.72px, -328.04px);
-    opacity: 0;
-  }
-}
-
-#forma5 {
-  animation: slideF5 10s infinite;
-}
-@keyframes slideF5 {
-  0% {
-    opacity: 0;
-  }
-  3% {
-    opacity: 1;
-  }
-  97% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
 }
 
 .pConstruccion_titulo {
@@ -273,6 +137,11 @@
   }
 }
 
+/*404*/
+.logo404 {
+  width: 60px;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
@@ -297,7 +166,7 @@
     padding: 0;
     padding-top: 200px;
   }
-  #logoFistex {
+  .pConstruccion_logo {
     width: 100px;
   }
   .pConstruccion_titulo {

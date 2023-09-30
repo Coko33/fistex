@@ -1,5 +1,4 @@
-import React from "react";
-import styles from "./../../page.module.css";
+import styles from "./LogoFistex.module.css";
 
 export default function LogoFistex() {
   return (
